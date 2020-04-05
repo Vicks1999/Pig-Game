@@ -44,7 +44,7 @@ document.querySelector('.btn-hold').addEventListener('click',function(){
 	{
 	    scores[activeplayer] += roundScore;
 	 	document.getElementById('score-'+activeplayer).textContent=scores[activeplayer];
-	 	if(scores[activeplayer]>=20)
+	 	if(scores[activeplayer]>=100)
 	 	{
 	 		document.getElementById('name-'+activeplayer).textContent="WINNER!";
 	 		document.querySelector('.dice').style.display='none';
